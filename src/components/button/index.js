@@ -4,7 +4,7 @@ export default class Button extends Lightning.Component {
 
     static _template() {
         return {
-            flex: {},
+            flex:{ direction: 'row', padding: 20, wrap: true },
             Background: {
                 flex: {},
                 rtt: true, shader: {type: Lightning.shaders.RoundedRectangle, radius: 14},
